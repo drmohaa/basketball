@@ -1,25 +1,28 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <div class="container">
-            <div class="all">
-                <h3>HOME</h3>
-                <p class="counter" id="home-counter">0</p>
-                <button class="plus-btn" onclick="pl1Home()">+1</button>
-                <button class="plus-btn" onclick="pl2Home()">+2</button>
-                <button class="plus-btn" onclick="pl3Home()">+3</button>
-            </div>
-            <div>
-                <h3>GUEST</h3>
-                <p class="counter" id="guest-counter">0</p>
-                <button class="plus-btn" onclick="pl1Guest()">+1</button>
-                <button class="plus-btn" onclick="pl2Guest()">+2</button>
-                <button class="plus-btn" onclick="pl3Guest()">+3</button>
-            </div>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="all">
+            <h3>HOME</h3>
+            <p class="counter" id="home-counter">0</p>
+            <button class="plus-btn" onclick="pl1Home()">+1</button>
+            <button class="plus-btn" onclick="pl2Home()">+2</button>
+            <button class="plus-btn" onclick="pl3Home()">+3</button>
         </div>
-        <button id="reset-btn" onclick="reset()">RESET</button>
-        <script src="index.js"></script>
-    </body>
+        <div>
+            <h3>AWAY</h3>
+            <p class="counter" id="guest-counter">0</p>
+            <button class="plus-btn" onclick="pl1Guest()">+1</button>
+            <button class="plus-btn" onclick="pl2Guest()">+2</button>
+            <button class="plus-btn" onclick="pl3Guest()">+3</button>
+        </div>
+    </div>
+    <button id="reset-btn" onclick="reset()">RESET</button>
+    <script src="index.js"></script>
+</body>
+
 </html>
